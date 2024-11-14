@@ -1,5 +1,23 @@
-# Vue 3 + Vite
+# Search Component with Filter Types
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A customizable Vue 3 search component that combines a search bar with a filter type dropdown and an icon button. The component allows users to select a search type and enter a search query, which is emitted as an object to the parent component.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+![Screenshot 1](./screenInputOne.png)
+![Screenshot 2](./screenInputTwo.png)
+
+## Features
+
+- Customizable search types through props
+- Emits both `searchQuery` and `searchType` as an object to the parent component
+- Closes the search bar automatically after submission
+- Supports both initial and dynamic updates of search queries
+
+## Project Setup
+- npm install
+- npm run dev
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/osamahkenawy/filter-search-bar.git
+cd filter-search-bar
